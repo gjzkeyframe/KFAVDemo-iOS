@@ -309,10 +309,10 @@
     }
     
     // 1、根据解封装器的状态，处理异常情况。
-    if (self.demuxReader.status == AVAssetWriterStatusCompleted) {
+    if (self.demuxReader.status == AVAssetReaderStatusCompleted) {
         self.demuxerStatus = KFMP4DemuxerStatusCompleted;
         return;
-    } else if (self.demuxReader.status == AVAssetWriterStatusFailed) {
+    } else if (self.demuxReader.status == AVAssetReaderStatusFailed) {
         if (self.demuxReader.error.code == AVErrorOperationInterrupted) {
             // 如果当前解封装器的状态是被打断而失败，就尝试重新创建一下。
             NSError *error;
@@ -323,7 +323,7 @@
             }
         }
         
-        if (self.demuxReader.status == AVAssetWriterStatusFailed) {
+        if (self.demuxReader.status == AVAssetReaderStatusFailed) {
             // 如果状态依然是失败，就上报错误。
             self.demuxerStatus = KFMP4DemuxerStatusFailed;
             if (self.errorCallBack) {
@@ -334,7 +334,7 @@
             }
             return;
         }
-    } else if (self.demuxReader.status == AVAssetWriterStatusCancelled) {
+    } else if (self.demuxReader.status == AVAssetReaderStatusCancelled) {
         // 如果状态是取消，就直接 return。
         self.demuxerStatus = KFMP4DemuxerStatusCancelled;
         return;
@@ -421,7 +421,7 @@
                     audioNeedLoad = NO;
                 }
             } else {
-                self.audioEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetWriterStatusCompleted;
+                self.audioEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetReaderStatusCompleted;
                 audioNeedLoad = NO;
             }
         }
@@ -440,7 +440,7 @@
                     videoNeedLoad = NO;
                 }
             } else {
-                self.videoEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetWriterStatusCompleted;
+                self.videoEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetReaderStatusCompleted;
                 videoNeedLoad = NO;
             }
         }
