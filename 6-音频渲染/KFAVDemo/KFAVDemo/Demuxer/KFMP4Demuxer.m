@@ -364,7 +364,7 @@
                         dispatch_semaphore_signal(_audioQueueSemaphore);
                     }
                 } else {
-                    self.audioEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetWriterStatusCompleted;
+                    self.audioEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetReaderStatusCompleted;
                     audioNeedLoad = NO;
                 }
             } else {
@@ -392,7 +392,7 @@
                         dispatch_semaphore_signal(_videoQueueSemaphore);
                     }
                 } else {
-                    self.videoEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetWriterStatusCompleted;
+                    self.videoEOF = self.demuxReader.status == AVAssetReaderStatusReading || self.demuxReader.status == AVAssetReaderStatusCompleted;
                     videoNeedLoad = NO;
                 }
             } else {
