@@ -2,10 +2,9 @@
 
 ## 关注我
 
-微信扫描下方二维码，关注公众号『关键帧Keyframe』，持续关注最新音视频技术文章：
+微信扫描下方二维码，关注公众号『关键帧Keyframe』，持续关注音视频技术干货：
 
 ![关键帧Keyframe](keyframe-qrcode.jpg)
-
 
 或者，微信搜索『gzjkeyframe』也可。
 
@@ -18,23 +17,36 @@ iOS/Android 客户端开发同学如果想要开始学习音视频开发，最�
 
 以下是目前已经完成的 Demo 对应的文章详解：
 
-- [iOS AVDemo（1）：音频采集](https://mp.weixin.qq.com/s/FDR_5cMfAJQgZhSvjgeWYA)
-- [iOS AVDemo（2）：音频编码](https://mp.weixin.qq.com/s/q4n1dYTjcJVJolX-Wrdr9Q)
-- [iOS AVDemo（3）：音频封装](https://mp.weixin.qq.com/s/R86qnQAi2njr6k7tFvTF-w)
-- [iOS AVDemo（4）：音频解封装](https://mp.weixin.qq.com/s/fCZfIXriTXUPcI4d4te_ew)
-- [iOS AVDemo（5）：音频解码](https://mp.weixin.qq.com/s/7Db81B9i16cLuq0jS42bmg)
-- [iOS AVDemo（6）：音频渲染](https://mp.weixin.qq.com/s/xrt277Ia1OFP_XtwK1qlQg)
+- 音频 Demo 合集：
+	- [iOS AVDemo（1）：音频采集](https://mp.weixin.qq.com/s/FDR_5cMfAJQgZhSvjgeWYA)
+	- [iOS AVDemo（2）：音频编码](https://mp.weixin.qq.com/s/q4n1dYTjcJVJolX-Wrdr9Q)
+	- [iOS AVDemo（3）：音频封装](https://mp.weixin.qq.com/s/R86qnQAi2njr6k7tFvTF-w)
+	- [iOS AVDemo（4）：音频解封装](https://mp.weixin.qq.com/s/fCZfIXriTXUPcI4d4te_ew)
+	- [iOS AVDemo（5）：音频解码](https://mp.weixin.qq.com/s/7Db81B9i16cLuq0jS42bmg)
+	- [iOS AVDemo（6）：音频渲染](https://mp.weixin.qq.com/s/xrt277Ia1OFP_XtwK1qlQg)
 
+音频 Demo 合集相关的工程源码已在本仓库开源。
 
+- 视频 Demo 合集：
+	- [iOS AVDemo（7）：视频采集](https://mp.weixin.qq.com/s/CJAhkk9BmhMOXgD2pl_rjg)
+	- [iOS AVDemo（8）：视频编码](https://mp.weixin.qq.com/s/M2l-9_W8heu_NjSYKQLCRA)
+	- [iOS AVDemo（9）：视频封装](https://mp.weixin.qq.com/s/W17eLiUeCszNM8Kg-rlmBg)
+	- [iOS AVDemo（10）：视频解封装](https://mp.weixin.qq.com/s/4Ua9PZllWRLYF79hwsH0DQ)
+	- [iOS AVDemo（11）：音视频转封装](https://mp.weixin.qq.com/s/VVItfhebc6L-JQFCGBtapQ)
+	- [iOS AVDemo（12）：视频解码](https://mp.weixin.qq.com/s/BIazU0Wd5_p4bx4nKJoH-g)
+	- [iOS AVDemo（13）：视频渲染](https://mp.weixin.qq.com/s/4K8xPX_A8NA01ecmA6UCtw)
 
+视频 Demo 合集相关的工程源码可以加入下面社群来获取 ↓↓↓
 
 ## 音视频技术社群
 
-下面的文章介绍了我们的社群：关键帧的音视频开发圈
+我们创建了一个答疑接货、分享知识和资源的付费技术社群：关键帧的音视频开发圈，欢迎大家按需加入。
 
-- [是的，我建了一个进阶百万年薪的社群](https://mp.weixin.qq.com/s/BWkXF_7p1s9umvvRNguH-w)
+微信扫描下面的二维码来加入：
 
-欢迎大家按需加入。
+![关键帧的音视频开发圈](zsxq.jpg)
+
+
 
 
 
