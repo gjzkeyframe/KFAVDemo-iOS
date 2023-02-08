@@ -44,7 +44,7 @@ iOS/Android 客户端开发同学如果想要开始学习音视频开发，最�
 
 微信扫描下面的二维码来加入：
 
-![关键帧的音视频开发圈](zsxq.jpg)
+![关键帧的音视频开发圈](zsxq-github-kfavdemo-ios.png)
 
 
 
